@@ -8,12 +8,11 @@ int b = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine ("Введите третье число c: ");
 int c = Convert.ToInt32(Console.ReadLine());
 
-int max = a;
-if (max<b)
+if (a>b && a>c)
+        Console.WriteLine($"Max = {a}");
+else if (a<b && c<b)
         Console.WriteLine($"Max = {b}");
-else if (max <c)
-        Console.WriteLine($"Max = {c}");
 else 
-    Console.WriteLine($"Max = {a}");
+    Console.WriteLine($"Max = {c}");
 
     

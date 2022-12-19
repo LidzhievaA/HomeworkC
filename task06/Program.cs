@@ -8,5 +8,5 @@ int number = Convert.ToInt32(Console.ReadLine());
 int n = number%2;
 if (n == 0)
     Console.WriteLine("Является чётным");
-else if (n==1)
-        Console.WriteLine("Не является чётным");
+else 
+   Console.WriteLine("Не является чётным");
